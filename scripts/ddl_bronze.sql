@@ -61,5 +61,6 @@ two_factor_auth_enabled varchar(20),
 biometric_login_used varchar(20),
 linked_accounts_count varchar(20),
 subscription_status varchar(20),
-user_engagement_score varchar(40)
+user_engagement_score decimal(5,2)
 );
+
